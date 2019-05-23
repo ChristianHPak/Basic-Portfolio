@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7H2N3mkyWi3epHAtfn1i0wfp9esApoDaiH8hxWaIuePaF47gx);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUL0ImU8-vS0NnQqlIqu_Po1Tfcyl0Uq0CfcjbSSYF5HZycjJ8);
 }
 
 img {
@@ -28,6 +28,7 @@ img {
 
 header {
     background: #ffffff;
+    width: 100%
 }
 
 h1 {
@@ -36,7 +37,6 @@ h1 {
     float: left;
     padding: 40px;
     text-align: center;
-    margin: 0px;
 }
 
 h2 {
@@ -78,9 +78,12 @@ footer {
     margin-top: 10px;
     border-top: 10px solid #4aaaa5;
 }
-.section2{
+
+section {
     position: relative;
+    padding-bottom: 20px;
 }
+
 #tag1 {
     background: lightblue;
     width: 200px;
@@ -88,8 +91,9 @@ footer {
     position: absolute;
     top: 210px;
     left: 20px;
-    padding:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
+
 #tag2 {
     background: lightblue;
     width: 200px;
@@ -97,8 +101,9 @@ footer {
     position: absolute;
     top: 210px;
     left: 260px;
-    padding:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
+
 #tag3 {
     background: lightblue;
     width: 200px;
@@ -106,8 +111,9 @@ footer {
     position: absolute;
     top: 210px;
     left: 500px;
-    padding:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
+
 #tag4 {
     background: lightblue;
     width: 200px;
@@ -115,8 +121,9 @@ footer {
     position: absolute;
     top: 210px;
     left: 740px;
-    padding:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
+
 #tag5 {
     background: lightblue;
     width: 200px;
@@ -124,8 +131,9 @@ footer {
     position: absolute;
     top: 450px;
     left: 20px;
-    padding:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
+
 #tag6 {
     background: lightblue;
     width: 200px;
@@ -133,8 +141,9 @@ footer {
     position: absolute;
     top: 450px;
     left: 260px;
-    padding:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
+
 #tag7 {
     background: lightblue;
     width: 200px;
@@ -142,8 +151,9 @@ footer {
     position: absolute;
     top: 450px;
     left: 500px;
-    padding:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
 }
+
 #tag8 {
     background: lightblue;
     width: 200px;
@@ -151,5 +161,52 @@ footer {
     position: absolute;
     top: 450px;
     left: 740px;
-    padding:10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px black solid;
+}
+
+.label {
+    margin-top: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+textarea {
+    width: 600px;
+    box-sizing: border-box;
+}
+
+button {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: gray;
+    color: white;
+}
+
+button:focus {
+    background-color: gray;
+    color: white;
+}
+
+button:active {
+    background-color: black;
+    color: white;
 }

@@ -3,26 +3,43 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
-    <form action="/my-handling-form-page">
-        <div>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="user_name">
+    <header>
+        <div class="container clearfix">
+            <h1>Christian Pak</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a> |</li>
+                    <li><a href="portfolio.html">Portfolio</a> |</li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div>
-            <label for="email">Email</label>
-            <input type="email" id="mail" name="user_mail">
-        </div>
-        <div>
-            <label for="msg">Message</label>
-            <textarea name="msg_message" id="msg" cols="30" rows="10"></textarea>
-        </div>
-        <div class="button">
-            <button type="submit">Send your message</button>
-        </div>
-    </form>
+    </header>
+    <section class="container clearfix">
+        <h2>Contact Me</h2>
+        <form action="/my-handling-form-page">
+            <div class="label">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div class="labe;">
+                <label for="email">Email</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div class="label">
+                <label for="msg">Message</label>
+                <textarea name="msg_message" id="msg" cols="30" rows="10"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Send your message</button>
+            </div>
+        </form>
+    </section>
 </body>
 
 </html>
